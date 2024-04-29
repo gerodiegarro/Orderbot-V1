@@ -1,0 +1,43 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model checkrabattcodeuses {
+  id         Int    @id @default(autoincrement())
+  username   String
+  rabattName String
+}
+
+model createKunde {
+  id              Int     @id @default(autoincrement())
+  email           String? @unique
+  username        String?
+  kundenNummer    String
+  googleDriveLink String
+}
+
+model orderSystem {
+  id           Int     @id @default(autoincrement())
+  kundenNummer String
+  email        String
+  username     String
+  orderId      String
+  orderType    String
+  orderProdukt String?
+  preis        Int
+  rabatt       String?
+  orderStatus  String
+}
+
+model rabattCodes {
+  id      Int    @id @default(autoincrement())
+  name    String
+  prozent Int
+  rolle   String
+}
+
