@@ -27,6 +27,7 @@ When you want to run the app the very first time open a terminal in the webapp d
 
 ## How to run
 to start the bot you have to enter the following command, this only works if you have already done all the other steps `node .`
+You must first create a discount code that has 0 percent before you create an order
 
 ## Questions
 
