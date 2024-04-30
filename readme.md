@@ -12,7 +12,7 @@ When you want to run the app the very first time open a terminal in the webapp d
 
 ## Links
 
-**For the Nodemailer** (
+**For the Nodemailer** 2Fa must be activatet (
 `https://myaccount.google.com/u/1/apppasswords?rapt=AEjHL4PeV1t4SgEiR84HvRxR5_Gnvzw4qeuGrKO1YIWWAlVGR4PMntUmjMk_IkT3nAsWRlswvJ_3QQsi9nMZ6OWo6y_ZHoGnqnqWUxztWjGGiDtn41WUFF8`)
 
 **For the GoogleDrive Cloud**(
